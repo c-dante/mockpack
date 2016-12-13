@@ -1,6 +1,6 @@
 {
   "name": "mockpack",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Mocking of modules for unit testing with webpack 1.x",
   "main": "mockpack.js",
   "scripts": {
