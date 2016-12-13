@@ -1,0 +1,41 @@
+{
+  "name": "mockpack",
+  "version": "0.0.0",
+  "description": "Mocking of modules for unit testing with webpack 1.x",
+  "main": "mockpack.js",
+  "scripts": {
+    "test": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js \"mocha!../example/test.js\" --target web --hot --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-dante/mockpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "mock",
+    "proxy",
+    "unit",
+    "test",
+    "module",
+    "proxyquire",
+    "mocktail",
+    "inject-loader",
+    "proxy-loader"
+  ],
+  "author": "Dante Federici <c.dante.federici@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/c-dante/mockpack/issues"
+  },
+  "homepage": "https://github.com/c-dante/mockpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mocha-loader": "^1.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

@@ -1,0 +1,21 @@
+# Build Artifacts
+bin
+
+# Dependencies
+node_modules
+
+# IDE
+.tmp/
+.DS_Store
+.idea/
+*.sublime-*
+
+# Generated / Data files
+*.meta
+*.log
+
+# Misc
+data/
+
+# Optional REPL history
+.node_repl_history
